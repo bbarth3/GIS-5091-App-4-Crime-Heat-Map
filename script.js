@@ -39,8 +39,7 @@ require(["esri/Map", "esri/layers/CSVLayer", "esri/views/MapView", "esri/widgets
         url: url,
         title: "St. Louis Crime Heatmap",
         copyright: "St. Louis Police Department",
-		latitudeField:"Lat",
-        longitudeField:"Lon",
+		
 		popupTemplate: template,
 		renderer: renderer
 });
